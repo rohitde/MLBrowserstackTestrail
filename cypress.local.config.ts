@@ -39,8 +39,5 @@ export default defineConfig({
       'cypress/integration/Specs/Regression/**/*.ts',
       'cypress/integration/Specs/TestRail/Test_Rail_Report.ts'
     ],
-    setupNodeEvents(on, config) {
-      return require('./cypress/plugins/index.ts')(on, config)
-    }
   },
 })

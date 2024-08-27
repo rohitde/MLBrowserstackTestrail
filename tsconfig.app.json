@@ -28,6 +28,5 @@
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
   },
-  "files": ["src/main.ts", "src/polyfills.ts"],
   "exclude": ["node_modules", "dist", "server", "e2e"]
 }
