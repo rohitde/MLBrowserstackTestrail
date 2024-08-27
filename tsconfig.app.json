@@ -1,0 +1,33 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "ES2022",
+    "useDefineForClassFields": false,
+    "module": "ES2022",
+    "importHelpers": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "incremental": true,
+    "allowJs": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "lib": ["ES2022", "dom"],
+    "plugins": [
+      {
+        "name": "@angular/language-service"
+      }
+    ]
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  },
+  "files": ["src/main.ts", "src/polyfills.ts"],
+  "exclude": ["node_modules", "dist", "server", "e2e"]
+}

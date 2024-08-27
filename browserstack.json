@@ -1,0 +1,46 @@
+{
+  "auth": {
+    "username": "rohitdeshpande_Ua8Dso",
+    "access_key": "vrPfRvzroqzWfptCb7zr"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows 10",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "cypress_config_file": "./cypress.config.ts",
+    "project_name": "Cypress:ML Platform",
+    "build_name": "ML Platform Sanity",
+    "exclude": [],
+    "parallels": "2",
+    "spec_timeout": 50,
+    "cypress_version": "10.3.0",
+    "npm_dependencies": {
+      "typescript": "4.5.4",
+      "cypress-file-upload": "^5.0.8",
+      "cypress": "10.3.0",
+      "cypress-real-events": "^1.9.1",
+      "pg": "^8.7.3",
+      "cypress-recurse": "^1.23.0",
+      "node-fetch": "^2.6.7",
+      "moment": "^2.24.0",
+      "cypress-if": "^1.10.3",
+      "cypress-testrail": "^2.8.0"
+    },
+    "network_logs": true,
+    "networkLogsOptions": {
+      "captureContent": "true"
+    },
+    "package_config_options": {}
+  },
+  "connection_settings": {
+    "local": true,
+    "local_identifier": "CypressTests2",
+    "local_mode": "always-on",
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}
